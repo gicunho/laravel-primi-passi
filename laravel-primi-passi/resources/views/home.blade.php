@@ -11,6 +11,45 @@
 
 <body>
 
+<style>
+#site_header {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}  
+    h1 {
+      font-size: blue;
+      text-transform: uppercase;
+      padding: 4rem 0;
+    }
+  
+    nav {
+      background-color: white;
+    }
+      a {
+        text-decoration: none;
+        color: red;
+        padding: 1rem;
+      }
+    
+  
+
+  /* Common rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins',
+      sans-serif;
+    width: 1000px;
+    margin: auto;
+  }
+
+</style>
+
   <div id="site_header">
     <h1>Be simple</h1>
     <nav class="navbar">
